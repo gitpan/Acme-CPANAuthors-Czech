@@ -6,7 +6,7 @@ use utf8;
 use warnings;
 
 # Version.
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 # Modules.
 use Acme::CPANAuthors::Register(
@@ -21,6 +21,7 @@ use Acme::CPANAuthors::Register(
 	'MILSO' => 'Milan Šorm',
 	'MJFO' => 'Michal Jurosz',
 	'PAJAS' => 'Petr Pajas',
+	'PEK' => 'Petr Kletečka',
 	'RUS' => 'Rudolf Rosa',
 	'RVASICEK' => 'Roman Vašíček',
 	'SKIM' => 'Michal Špaček',
@@ -74,7 +75,7 @@ See documentation for L<Acme::CPANAuthors> for more details.
  print "Count of Czech CPAN authors: $count\n";
 
  # Output:
- # Count of Czech CPAN authors: 17
+ # Count of Czech CPAN authors: 18
 
 =head1 EXAMPLE2
 
@@ -109,12 +110,13 @@ See documentation for L<Acme::CPANAuthors> for more details.
  #    8  'MILSO'
  #    9  'MJFO'
  #    10  'PAJAS'
- #    11  'RUS'
- #    12  'RVASICEK'
- #    13  'SKIM'
- #    14  'TKR'
- #    15  'TRIPIE'
- #    16  'ZOUL'
+ #    11  'PEK'
+ #    12  'RUS'
+ #    13  'RVASICEK'
+ #    14  'SKIM'
+ #    15  'TKR'
+ #    16  'TRIPIE'
+ #    17  'ZOUL'
 
 =head1 DEPENDENCIES
 
@@ -136,6 +138,6 @@ BSD license.
 
 =head1 VERSION
 
-0.03
+0.04
 
 =cut
