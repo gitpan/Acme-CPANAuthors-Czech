@@ -5,7 +5,8 @@ use warnings;
 
 # Modules.
 use Acme::CPANAuthors::Czech;
-use Test::More 'tests' => 1;
+use Test::More 'tests' => 2;
+use Test::NoWarnings;
 
 # Test.
 my %ret = Acme::CPANAuthors::Czech->authors;
@@ -17,6 +18,7 @@ my %right_ret = (
 	'JANPOM' => 'Jan Pomikálek',
 	'JENDA' => 'Jan Krynický',
 	'JSPICAK' => 'Jakub Špičák',
+	'KLE' => 'Petr Kletečka',
 	'MAJLIS' => 'Martin Majlis',
 	'MILSO' => 'Milan Šorm',
 	'MJFO' => 'Michal Jurosz',
