@@ -27,9 +27,10 @@ no_index:
     - t
 requires:
   Acme::CPANAuthors: 0
+  perl: 5.10.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-Czech
   homepage: https://github.com/tupinek/Acme-CPANAuthors-Czech
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/Acme-CPANAuthors-Czech
-version: 0.05
+version: 0.06
