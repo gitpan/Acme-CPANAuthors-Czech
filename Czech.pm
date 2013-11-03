@@ -6,7 +6,7 @@ use utf8;
 use warnings;
 
 # Version.
-our $VERSION = 0.07;
+our $VERSION = 0.08;
 
 # Modules.
 use Acme::CPANAuthors::Register(
@@ -22,6 +22,7 @@ use Acme::CPANAuthors::Register(
 	'MILSO' => 'Milan Šorm',
 	'MJFO' => 'Michal Jurosz',
 	'PAJAS' => 'Petr Pajas',
+	'PASKY' => 'Petr Baudiš',
 	'PEK' => 'Petr Kletečka',
 	'RUS' => 'Rudolf Rosa',
 	'RVASICEK' => 'Roman Vašíček',
@@ -76,7 +77,7 @@ See documentation for L<Acme::CPANAuthors> for more details.
  print "Count of Czech CPAN authors: $count\n";
 
  # Output:
- # Count of Czech CPAN authors: 19
+ # Count of Czech CPAN authors: 20
 
 =head1 EXAMPLE2
 
@@ -86,7 +87,7 @@ See documentation for L<Acme::CPANAuthors> for more details.
 
  # Modules.
  use Acme::CPANAuthors;
- use Dumpvalue;
+ use Data::Printer;
 
  # Create object.
  my $authors = Acme::CPANAuthors->new('Czech');
@@ -94,31 +95,32 @@ See documentation for L<Acme::CPANAuthors> for more details.
  # Get all ids.
  my @ids = $authors->id;
 
- # Dump out.
- my $dump = Dumpvalue->new;
- $dump->dumpValues(\@ids);
+ # Print out.
+ p @ids;
 
  # Output:
- # 0  ARRAY(0x9c01980)
- #    0  'DANPEDER'
- #    1  'HIHIK'
- #    2  'HPA'
- #    3  'JANPAZ'
- #    4  'JANPOM'
- #    5  'JENDA'
- #    6  'JSPICAK'
- #    7  'KLE'
- #    8  'MAJLIS'
- #    9  'MILSO'
- #    10  'MJFO'
- #    11  'PAJAS'
- #    12  'PEK'
- #    13  'RUS'
- #    14  'RVASICEK'
- #    15  'SKIM'
- #    16  'TKR'
- #    17  'TRIPIE'
- #    18  'ZOUL'
+ # [
+ #     [0]  "DANPEDER",
+ #     [1]  "HIHIK",
+ #     [2]  "HPA",
+ #     [3]  "JANPAZ",
+ #     [4]  "JANPOM",
+ #     [5]  "JENDA",
+ #     [6]  "JSPICAK",
+ #     [7]  "KLE",
+ #     [8]  "MAJLIS",
+ #     [9]  "MILSO",
+ #     [10] "MJFO",
+ #     [11] "PAJAS",
+ #     [12] "PASKY",
+ #     [13] "PEK",
+ #     [14] "RUS",
+ #     [15] "RVASICEK",
+ #     [16] "SKIM",
+ #     [17] "TKR",
+ #     [18] "TRIPIE",
+ #     [19] "ZOUL"
+ # ]
 
 =head1 DEPENDENCIES
 
@@ -140,6 +142,6 @@ BSD license.
 
 =head1 VERSION
 
-0.07
+0.08
 
 =cut

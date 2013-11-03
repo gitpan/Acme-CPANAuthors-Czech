@@ -1,3 +1,7 @@
+0.08 2013-11-3
+ - Add PASKY CPAN account.
+ - Rewrite EXAMPLE2 in doc to use Data::Printer.
+
 0.07 2013-09-21
  - Fix README.
  - Rewrite Changes file to CPAN::Changes::SPEC format.
