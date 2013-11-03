@@ -1,3 +1,6 @@
+0.09 2013-11-3
+ - Update README file.
+
 0.08 2013-11-3
  - Add PASKY CPAN account.
  - Rewrite EXAMPLE2 in doc to use Data::Printer.
