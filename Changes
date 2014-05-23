@@ -1,7 +1,12 @@
-0.09 2013-11-3
+0.10 2014-05-23T08:00:50+02:00
+ - Add CHOROBA CPAN account.
+ - Add 'readme_from' directive to Makefile.PL.
+ - Update Module::Install to 1.08 version.
+
+0.09 2013-11-03
  - Update README file.
 
-0.08 2013-11-3
+0.08 2013-11-03
  - Add PASKY CPAN account.
  - Rewrite EXAMPLE2 in doc to use Data::Printer.
 
