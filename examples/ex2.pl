@@ -34,10 +34,14 @@ p @ids;
 #     [12] "PAJAS",
 #     [13] "PASKY",
 #     [14] "PEK",
-#     [15] "RUS",
-#     [16] "RVASICEK",
-#     [17] "SKIM",
-#     [18] "TKR",
-#     [19] "TRIPIE",
-#     [20] "ZOUL"
+#     [15] "POPEL",
+#     [16] "RUR",
+#     [17] "RVASICEK",
+#     [18] "SKIM",
+#     [19] "SMRZ",
+#     [20] "STRAKA",
+#     [21] "TKR",
+#     [22] "TRIPIE",
+#     [23] "ZEMAN",
+#     [24] "ZOUL"
 # ]
