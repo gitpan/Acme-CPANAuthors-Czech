@@ -6,7 +6,7 @@ use utf8;
 use warnings;
 
 # Version.
-our $VERSION = 0.13;
+our $VERSION = 0.14;
 
 # Modules.
 use Acme::CPANAuthors::Register(
@@ -20,6 +20,7 @@ use Acme::CPANAuthors::Register(
 	'JENDA' => 'Jan Krynický',
 	'JSPICAK' => 'Jakub Špičák',
 	'KLE' => 'Petr Kletečka',
+	'KOLCON' => 'Luboš Kolouch',
 	'MAJLIS' => 'Martin Majlis',
 	'MILSO' => 'Milan Šorm',
 	'MJFO' => 'Michal Jurosz',
@@ -30,6 +31,7 @@ use Acme::CPANAuthors::Register(
 	'PSME' => 'Petr Šmejkal',
 	'RUR' => 'Rudolf Rosa',
 	'RVASICEK' => 'Roman Vašíček',
+	'SEIDLJAN' => 'Jan Seidl',
 	'SKIM' => 'Michal Špaček',
 	'SMRZ' => 'Otakar Smrž',
 	'STRAKA' => 'Milan Straka',
@@ -84,7 +86,7 @@ See documentation for L<Acme::CPANAuthors> for more details.
  print "Count of Czech CPAN authors: $count\n";
 
  # Output:
- # Count of Czech CPAN authors: 27
+ # Count of Czech CPAN authors: 29
 
 =head1 EXAMPLE2
 
@@ -117,23 +119,25 @@ See documentation for L<Acme::CPANAuthors> for more details.
  #     [7]  "JENDA",
  #     [8]  "JSPICAK",
  #     [9]  "KLE",
- #     [10]  "MAJLIS",
- #     [11] "MILSO",
- #     [12] "MJFO",
- #     [13] "PAJAS",
- #     [14] "PASKY",
- #     [15] "PEK",
- #     [16] "POPEL",
- #     [17] "PSME",
- #     [18] "RUR",
- #     [19] "RVASICEK",
- #     [20] "SKIM",
- #     [21] "SMRZ",
- #     [22] "STRAKA",
- #     [23] "TKR",
- #     [24] "TRIPIE",
- #     [25] "ZEMAN",
- #     [26] "ZOUL"
+ #     [10] "KOLCON",
+ #     [11] "MAJLIS",
+ #     [12] "MILSO",
+ #     [13] "MJFO",
+ #     [14] "PAJAS",
+ #     [15] "PASKY",
+ #     [16] "PEK",
+ #     [17] "POPEL",
+ #     [18] "PSME",
+ #     [19] "RUR",
+ #     [20] "RVASICEK",
+ #     [21] "SEIDLJAN",
+ #     [22] "SKIM",
+ #     [23] "SMRZ",
+ #     [24] "STRAKA",
+ #     [25] "TKR",
+ #     [26] "TRIPIE",
+ #     [27] "ZEMAN",
+ #     [28] "ZOUL"
  # ]
 
 =head1 DEPENDENCIES
@@ -156,6 +160,6 @@ BSD license.
 
 =head1 VERSION
 
-0.13
+0.14
 
 =cut
