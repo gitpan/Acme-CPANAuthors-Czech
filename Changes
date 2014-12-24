@@ -1,3 +1,10 @@
+0.15 2014-12-23T18:18:27+01:00
+ - Add JIRA CPAN account.
+ - Add name() method to SYNOPSIS section in doc.
+ - Sort modules in SYNOPSIS section in doc.
+ - Update README file.
+ - Update Module::Install to 1.14 version.
+
 0.14 2014-09-08T01:05:04+02:00
  - Add KOLCON CPAN account.
  - Add SEIDLJAN CPAN account.
